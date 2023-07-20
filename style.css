@@ -5,7 +5,6 @@
     padding: 0;
     font-family: 'Work Sans', sans-serif;
     box-sizing: border-box;
-    border: 1px solid green;
 }
 .nav-container{
     display: flex;
@@ -238,6 +237,9 @@ section{
     justify-content: center;
 
 }
+.logo-footer img, .logo-footer h2{
+    margin-top: 120px;
+}
    
 #g-logo{
     color: #FF42A5;
@@ -351,12 +353,12 @@ section{
         margin-right: 15px;
 
     }
-    /* .reserved p{
+    .reserved p{
         align-items: center;
     }
     .logo-footer img, .logo-footer h2{
         margin-top: 120px;
-    } */
+    }
     .games-container{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
